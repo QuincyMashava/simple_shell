@@ -1,14 +1,14 @@
 #include "shell.h"
 
 /**
- * _strcpy - copies the string pointed to by src,
- * including the terminating null byte (\0),
- * to the buffer pointed to by dest
- * @dest: copy source to this buffer
- * @src: this is the source to copy
- * Return: copy of original source
- * See previous tasks for string copy 
- */
+* _strcpy - copies the string pointed to by src,
+* including the terminating null byte (\0),
+* to the buffer pointed to by dest
+* @dest: copy source to this buffer
+* @src: this is the source to copy
+* Return: copy of original source
+* See previous tasks for string copy 
+*/
 
 char *_strcpy(char *dest, char *src)
 {

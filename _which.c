@@ -1,11 +1,11 @@
 #include "shell.h"
 
 /**
- * _which - fleshes out command by appending it to a matching PATH directory
- * @str: first command user typed into shell (e.g. "ls" if user typed "ls -l")
- * @env: environmental variable
- * Return: a copy of fleshed out command (e.g. "/bin/ls" if originally "ls")
- */
+* _which - fleshes out command by appending it to a matching PATH directory
+* @str: first command user typed into shell (e.g. "ls" if user typed "ls -l")
+* @env: environmental variable
+* Return: a copy of fleshed out command (e.g. "/bin/ls" if originally "ls")
+*/
 char *_which(char *str, list_t *env)
 {
 char *pth, *cat = NULL, **toks;

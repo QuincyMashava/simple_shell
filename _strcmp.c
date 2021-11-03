@@ -1,12 +1,12 @@
 #include "shell.h"
 
 /**
- * _strcmp - compare two strings
- * @s1: string 1
- * @s2: string 2
- * Return: int that tells num spaces in between, 0 if exactly the same string
- * See previous tasks for string compare
- */
+* _strcmp - compare two strings
+* @s1: string 1
+* @s2: string 2
+* Return: int that tells num spaces in between, 0 if exactly the same string
+* See previous tasks for string compare
+*/
 
 int _strcmp(char *s1, char *s2)
 {
